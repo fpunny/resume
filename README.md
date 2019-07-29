@@ -1,4 +1,5 @@
 # Personal Resume
+[![Netlify Status](https://api.netlify.com/api/v1/badges/321cc45a-343e-4eaf-9eff-e4210395dc2f/deploy-status)](https://app.netlify.com/sites/fp-resume/deploys)
 
 ## What is this?
 A resume created using React inspired by a HTML based template, [https://github.com/mnjul/html-resume](https://github.com/mnjul/html-resume)
