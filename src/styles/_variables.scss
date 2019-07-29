@@ -1,0 +1,15 @@
+@import './mixins';
+
+$FONT: 'Darker Grotesque', sans-serif;
+
+$PAGE: (
+    WIDTH: 8.5in,
+    HEIGHT: 11in,
+    MARGIN: 1in,
+    FONT_FAMILY: $FONT,
+    FONT_COLOR: #272727,
+);
+
+$HEADER: (
+    BACKGROUND: darken(#ffffff),
+);

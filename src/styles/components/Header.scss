@@ -1,0 +1,92 @@
+@import '../variables';
+@import '../mixins';
+
+.header {
+    @include flex;
+    position: relative;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+    &__head {
+        @include flex(column);
+        flex-grow: 1;
+        margin: 35px 0 0 30px;
+        padding: 15px 0 0 25px;
+        position: relative;
+
+        &-text {
+            @include flex(flex-start, center);
+            color: darken(map-get($PAGE, FONT_COLOR), -30%);
+            font-size: 0.9rem;
+            z-index: 2;
+            margin: 0 0 8px;
+        }
+
+        &-icon {
+            fill: darken(map-get($PAGE, FONT_COLOR), -30%);
+            margin-right: 12px;
+        }
+    }
+
+    &__heading {
+        z-index: 2;
+        margin: 0 0 10px;
+    }
+
+    &__info {
+        @include flex(column);
+        list-style-type: none;
+        padding: 0 60px 0 0;
+        position: relative;
+        font-size: 0.9rem;
+        z-index: 2;
+        margin: 0;
+
+        &:before, &:after {
+            content: '';
+            width: 3px;
+            margin-left: 6px;
+            background-color: map-get($PAGE, FONT_COLOR);
+        }
+
+        &:before {
+            height: 45px;
+            margin-bottom: 6px;
+        }
+
+        &:after {
+            height: 20px;
+            margin-top: 6px;
+        }
+
+        &-item {
+            @include flex(flex-start, center);
+            margin: 4px 0;
+        }
+
+        &-icon {
+            margin-right: 10px;
+        }
+    }
+
+    &__link {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    &__box {
+        @include position(absolute, 0 auto auto 0);
+        z-index: 1;
+        width: 282px;
+        height: 960px;
+        background-color: darken(map-get($PAGE, FONT_COLOR), -80%);
+    }
+
+    &__line {
+        @include position(absolute, auto auto -8px 0);
+        z-index: 1;
+        width: 200px;
+        height: 3px;
+        background-color: map-get($PAGE, FONT_COLOR);
+    }
+}
