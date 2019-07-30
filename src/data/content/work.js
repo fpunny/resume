@@ -20,7 +20,7 @@ export const work = [
         details: [
             'Assisted in Co-op recruitment, reviewing resumes, and conducting interviews with a committee of Co-ops and managers',
             'Managed a team of 3 to implement a React Typescript application for an internal style guidelines to help with brand identity',
-            'Optimized React app with code splitting and transitional CSS, improving first-frame load time without sacrificing interactiveness'
+            'Optimized React app with code splitting and transitional CSS, improving first-frame load time without sacrificing interactivity'
         ]
     },
 ];
