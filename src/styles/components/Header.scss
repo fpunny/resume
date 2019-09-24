@@ -78,7 +78,7 @@
         @include position(absolute, 0 auto auto 0);
         z-index: 1;
         width: 282px;
-        height: 960px;
+        height: 980px;
         background-color: darken(map-get($PAGE, FONT_COLOR), -80%);
     }
 

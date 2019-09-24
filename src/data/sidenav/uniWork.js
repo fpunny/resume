@@ -6,6 +6,7 @@ export const uniWork = [
         details: [
             'Discrete Mathematics - Fall 2018',
             'Software Engineering -  Summer 2019',
+            'Software Design - Fall 2019',
         ]
     },
     {
